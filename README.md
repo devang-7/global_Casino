@@ -12,7 +12,7 @@ We need to install the pandas and vantage package to get stock APIs:
   >pip install alpha_vantage                                     
   
   #To install pandas library
-  >pip install pandas*                                                 
+  >pip install pandas                                                 
 
 
 
