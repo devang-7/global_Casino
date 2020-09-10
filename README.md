@@ -38,13 +38,34 @@ from alpha_vantage.timeseries import TimeSeries
 import matplotlib.pyplot as plt
 
 ts = TimeSeries(key='YOUR_API_KEY', output_format='pandas')
-data, meta_data = ts.get_intraday(symbol='AAPL',interval='60min', outputsize='full')
+data, meta_data = ts.get_intraday(symbol='MSFT',interval='1min', outputsize='full')
 data['4. close'].plot()
-plt.title('Intraday Times Series for the Apple stock (60 mins)')
+plt.title('Intraday Times Series for the MSFT stock (1 min)')
 plt.show()
 ```
 The output of the above code is:
 ![alt text](https://github.com/devang-7/global_Casino/blob/master/Images/Figure_1.png)
+
+
+### Technical indicators
+The same way we can get pandas to plot technical indicators like Bollinger Bands®
+
+```python
+import pandas as pd
+from alpha_vantage.techindicators import TechIndicators
+import matplotlib.pyplot as plt
+
+api_key = 'RNZPXZ6Q9FEFMEHM'
+
+ti = TechIndicators(key=api_key, output_format='pandas')
+data, meta_data = ti.get_ema(symbol='MSFT', interval='1min', time_period=60, series_type='close')
+
+data.plot()
+plt.title('Exponential Moving Average (60 Minutes) Microsoft')
+plt.show()
+```
+The output of the above code is:
+![alt text](https://github.com/devang-7/global_Casino/blob/master/Images/EMA.png)
 
 
 ![alt text](https://github.com/devang-7/global_Casino/blob/master/Images/EMA.png)
