@@ -5,3 +5,5 @@ This data frame structured used here is pandas data frame. To get started, impor
 >ts = TimeSeries(key='YOUR_API_KEY', output_format='pandas')
 >data, meta_data = ts.get_intraday(symbol='MSFT',interval='1min', outputsize='full')
 >pprint(data.head(2))
+
+The number of entries can be manipulated as per the need.
