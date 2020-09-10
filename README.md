@@ -14,5 +14,6 @@ We need to install the pandas and vantage package to get stock APIs:
   #To install pandas library
   >pip install pandas                                                 
 
+[Usage guidelines for this project](docs/Usage.md)
 
 
