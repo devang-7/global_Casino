@@ -1,5 +1,16 @@
 # global_Casino
+This is a python module which aims to gather models for Stock forecasting.
 
-This is our bible where we create our own rules. We have started this project with the aim to be the the richest man in the country. Satyam: richest man in india and Devang: 2nd richest man in India.
+The aim is to build a tool that investors can use to filter a large database of stocks into a more manageable list of stocks that qualify for further analysis.There are some free screeners out there, as well as more advanced programs that can be quite costly. Selecting stocks can be a difficult and tedious process, and hence we decided to build such tool. 
+However, removing emotion and behavioral biases from the investment decision-making process.
 
-The aim is to build a stock anal project. Our artificial intelligence will track the stocks and with it's supervised parameters will shortlist the hot stocks. The stocks will be stored on our cloud platform where Champak laal (AI) will compute the data and invest the rightfull amount in the stock market. 
+**Install*
+
+We need to install the pandas and vantage package to get stock APIs:
+
+  >pip install alpha_vantage                                      #To install alpha-vantage
+  
+  *pip install pandas*                                                 #To install pandas library
+
+
+
