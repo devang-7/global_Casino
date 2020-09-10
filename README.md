@@ -90,6 +90,6 @@ Giving us as output:
 
 
 
-![alt text](https://github.com/devang-7/global_Casino/blob/master/Images/EMA.png)
+![alt text](https://github.com/devang-7/global_Casino/blob/master/Images/b84b03cb-11d1-444e-83a3-97be15e8088b.jpg)
 
 
