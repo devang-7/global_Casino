@@ -43,8 +43,7 @@ data['4. close'].plot()
 plt.title('Intraday Times Series for the MSFT stock (1 min)')
 plt.show()
 ```
-Giving us as output:
-![alt text](images/docs_ts_msft_example.png?raw=True "MSFT minute value plot example")
+
 
 ![alt text](https://github.com/devang-7/global_Casino/blob/master/Images/EMA.png)
 
