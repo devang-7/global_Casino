@@ -43,6 +43,8 @@ data['4. close'].plot()
 plt.title('Intraday Times Series for the MSFT stock (1 min)')
 plt.show()
 ```
+The output of the above code is:
+![alt text](https://github.com/devang-7/global_Casino/blob/master/Images/Figure_1.png)
 
 
 ![alt text](https://github.com/devang-7/global_Casino/blob/master/Images/EMA.png)
