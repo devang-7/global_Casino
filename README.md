@@ -16,6 +16,6 @@ We need to install the pandas and vantage package to get stock APIs:
 
 [Usage guidelines for this project](docs/Usage.md)
 
-![alt text](https://github.com/[get-satyam]/[global_Casino]/blob/[master]/EMA.jpg?raw=true)
+![alt text](https://github.com/devang-7/global_Casino/blob/master/Images/EMA.png)
 
 
