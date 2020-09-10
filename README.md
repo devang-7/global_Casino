@@ -8,9 +8,11 @@ However, removing emotion and behavioral biases from the investment decision-mak
 
 We need to install the pandas and vantage package to get stock APIs:
 
-  >pip install alpha_vantage                                      #To install alpha-vantage
+  #To install alpha-vantage
+  >pip install alpha_vantage                                     
   
-  *pip install pandas*                                                 #To install pandas library
+  #To install pandas library
+  >pip install pandas*                                                 
 
 
 
