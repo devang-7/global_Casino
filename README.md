@@ -15,6 +15,18 @@ We need to install the pandas and vantage package to get stock APIs:
   >pip install pandas                                                 
 
  - [USAGE](https://github.com/devang-7/global_Casino/blob/master/Usage.md)
+ 
+ **Data Frame Structure**
+The data frame structure is given by the call on alpha vantage rest API. The column names of the data frames are the ones given by their data structure. 
+```python
+from alpha_vantage.timeseries import TimeSeries
+from pprint import pprint
+ts = TimeSeries(key='YOUR_API_KEY', output_format='pandas')
+data, meta_data = ts.get_intraday(symbol='MSFT',interval='1min', outputsize='full')
+pprint(data.head(2))
+```
+This is the Output of the above code
+![alt text](https://github.com/devang-7/global_Casino/blob/master/Images/DATA_usage.png)
 
 ![alt text](https://github.com/devang-7/global_Casino/blob/master/Images/EMA.png)
 
