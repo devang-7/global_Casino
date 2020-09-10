@@ -68,7 +68,7 @@ The output of the above code is:
 ![alt text](https://github.com/devang-7/global_Casino/blob/master/Images/EMA.png)
 
 ### Sector Performance
-We can also plot sector performance just as easy:
+We have to buy stocks in accordance with the sector performance. Hence, we can plot historgrams for the sector performance.
 
 ```python
 from alpha_vantage.sectorperformance import SectorPerformances
