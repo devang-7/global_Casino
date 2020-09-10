@@ -38,9 +38,9 @@ from alpha_vantage.timeseries import TimeSeries
 import matplotlib.pyplot as plt
 
 ts = TimeSeries(key='YOUR_API_KEY', output_format='pandas')
-data, meta_data = ts.get_intraday(symbol='MSFT',interval='1min', outputsize='full')
+data, meta_data = ts.get_intraday(symbol='AAPL',interval='60min', outputsize='full')
 data['4. close'].plot()
-plt.title('Intraday Times Series for the MSFT stock (1 min)')
+plt.title('Intraday Times Series for the Apple stock (60 mins)')
 plt.show()
 ```
 The output of the above code is:
