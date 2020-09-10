@@ -14,7 +14,7 @@ We need to install the pandas and vantage package to get stock APIs:
   #To install pandas library
   >pip install pandas                                                 
 
-![alt text](https://github.com/devang-7/global_Casino/blob/master/docs/Usage.md)
+[a link](https://github.com/devang-7/global_Casino/blob/master/Usage.md)
 
 ![alt text](https://github.com/devang-7/global_Casino/blob/master/Images/EMA.png)
 
